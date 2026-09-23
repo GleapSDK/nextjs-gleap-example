@@ -1,3 +1,9 @@
+# Gleap Next.js 15 Example
+
+Next.js 15 example integrating Gleap customer support: initialize the SDK, identify users and open the in-app messenger.
+
+[Integration documentation](https://docs.gleap.ai/documentation/javascript/README) · [Gleap](https://www.gleap.ai)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
