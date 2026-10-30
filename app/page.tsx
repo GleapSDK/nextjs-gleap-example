@@ -2,17 +2,10 @@
 
 import Gleap from "gleap";
 import { useSearchParams } from "next/navigation";
-import { useEffect } from "react";
 
 export default function Home() {
   const searchParams = useSearchParams();
   const apiKey = searchParams.get("apiKey");
-
-  useEffect(() => {
-    if (apiKey) {
-      Gleap.initialize(apiKey);
-    }
-  }, [apiKey]);
 
   if (!apiKey) {
     return (
